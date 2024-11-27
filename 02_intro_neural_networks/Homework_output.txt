@@ -1,0 +1,437 @@
+Daniel Keller - Homework Output for 02_intro_neural_networks
+
+Output from changing batch sizes
+*********************************************
+
+---------------------------------------------
+batch_size_test = 16
+Output:
+---------------------------------------------
+Test loss: 0.3349, test accuracy: 90.79%
+
+Epoch 0: training loss: 0.7281302296320598, accuracy: 79.10000000000001
+Epoch 0: val. loss: 0.7159986413539724, val. accuracy: 78.75833333333333
+Epoch 1: training loss: 0.3982404008309046, accuracy: 88.85833333333333
+Epoch 1: val. loss: 0.3881707828729711, val. accuracy: 88.83333333333333
+Epoch 2: training loss: 0.31066583172480267, accuracy: 91.16250000000001
+Epoch 2: val. loss: 0.3036947985912891, val. accuracy: 91.03333333333333
+Epoch 3: training loss: 0.25768166323502856, accuracy: 92.61875
+Epoch 3: val. loss: 0.2537772074500297, val. accuracy: 92.475
+Epoch 4: training loss: 0.22055133883158365, accuracy: 93.59166666666667
+Epoch 4: val. loss: 0.22004254186090003, val. accuracy: 93.36666666666666
+CPU times: user 1min 15s, sys: 149 ms, total: 1min 15s
+Wall time: 1min 16s
+
+---------------------------------------------
+batch_size_test = 32
+Output:
+---------------------------------------------
+Test loss: 0.3347, test accuracy: 90.79%
+
+Epoch 0: training loss: 0.724742516040802, accuracy: 78.50833333333334
+Epoch 0: val. loss: 0.7158607802492507, val. accuracy: 78.75833333333333
+Epoch 1: training loss: 0.4097422205209732, accuracy: 88.70625
+Epoch 1: val. loss: 0.40382427516135766, val. accuracy: 88.63333333333333
+Epoch 2: training loss: 0.3130680603583654, accuracy: 91.10833333333333
+Epoch 2: val. loss: 0.3083108926707126, val. accuracy: 90.9
+Epoch 3: training loss: 0.25535188017288846, accuracy: 92.67708333333333
+Epoch 3: val. loss: 0.2534116543829441, val. accuracy: 92.48333333333333
+Epoch 4: training loss: 0.21867243800560635, accuracy: 93.81041666666667
+Epoch 4: val. loss: 0.2187944533343011, val. accuracy: 93.55
+CPU times: user 1min 14s, sys: 159 ms, total: 1min 14s
+Wall time: 1min 15s
+
+---------------------------------------------
+batch_size_test = 64
+Output:
+---------------------------------------------
+Test loss: 0.3344, test accuracy: 90.79%
+
+Epoch 0: training loss: 0.8588847165107727, accuracy: 74.65625
+Epoch 0: val. loss: 0.8554811864457232, val. accuracy: 74.13333333333333
+Epoch 1: training loss: 0.4247665394147237, accuracy: 88.07916666666667
+Epoch 1: val. loss: 0.4188372835199884, val. accuracy: 88.14999999999999
+Epoch 2: training loss: 0.3178399899403254, accuracy: 90.89791666666667
+Epoch 2: val. loss: 0.31218072882992154, val. accuracy: 90.78333333333333
+Epoch 3: training loss: 0.2594391280412674, accuracy: 92.46041666666667
+Epoch 3: val. loss: 0.2562008335235271, val. accuracy: 92.25
+Epoch 4: training loss: 0.2227859113017718, accuracy: 93.48125
+Epoch 4: val. loss: 0.2213562547843507, val. accuracy: 93.53333333333333
+CPU times: user 1min 16s, sys: 169 ms, total: 1min 16s
+Wall time: 1min 17s
+
+---------------------------------------------
+batch_size_test = 128
+Output:
+---------------------------------------------
+Test loss: 0.3335, test accuracy: 90.85%
+
+Epoch 0: training loss: 0.7280928022066752, accuracy: 79.86458333333334
+Epoch 0: val. loss: 0.7180471394924407, val. accuracy: 79.825
+Epoch 1: training loss: 0.3786387542486191, accuracy: 89.23124999999999
+Epoch 1: val. loss: 0.3694493463064762, val. accuracy: 89.31666666666666
+Epoch 2: training loss: 0.3000193961064021, accuracy: 91.38958333333333
+Epoch 2: val. loss: 0.29428782932301784, val. accuracy: 91.39166666666667
+Epoch 3: training loss: 0.24878409602244694, accuracy: 92.96458333333332
+Epoch 3: val. loss: 0.24681435699792617, val. accuracy: 92.81666666666666
+Epoch 4: training loss: 0.21035458477338156, accuracy: 94.00833333333334
+Epoch 4: val. loss: 0.2118795171697089, val. accuracy: 93.875
+CPU times: user 1min 15s, sys: 192 ms, total: 1min 15s
+Wall time: 1min 16s
+
+---------------------------------------------
+batch_size_test = 256
+Output:
+---------------------------------------------
+Test loss: 0.3324, test accuracy: 90.86%
+
+Epoch 0: training loss: 0.8340410879453023, accuracy: 74.85000000000001
+Epoch 0: val. loss: 0.8269448432516544, val. accuracy: 74.86666666666667
+Epoch 1: training loss: 0.3981215610106786, accuracy: 88.97708333333333
+Epoch 1: val. loss: 0.3909676899301245, val. accuracy: 89.125
+Epoch 2: training loss: 0.3076359800895055, accuracy: 91.22083333333333
+Epoch 2: val. loss: 0.3022479776372301, val. accuracy: 91.07499999999999
+Epoch 3: training loss: 0.24999829294284184, accuracy: 92.84166666666667
+Epoch 3: val. loss: 0.24838326308638492, val. accuracy: 92.60833333333333
+Epoch 4: training loss: 0.21307715594768525, accuracy: 93.80625
+Epoch 4: val. loss: 0.21392898174359443, val. accuracy: 93.58333333333333
+CPU times: user 1min 14s, sys: 167 ms, total: 1min 14s
+Wall time: 1min 14s
+
+---------------------------------------------
+batch_size_test = 512
+Output:
+---------------------------------------------
+Test loss: 0.3410, test accuracy: 90.86%
+
+Epoch 0: training loss: 0.6643484299182891, accuracy: 81.60625
+Epoch 0: val. loss: 0.6596992941612893, val. accuracy: 81.60833333333333
+Epoch 1: training loss: 0.38424568819999694, accuracy: 89.23541666666667
+Epoch 1: val. loss: 0.37715880953251046, val. accuracy: 89.17500000000001
+Epoch 2: training loss: 0.2970324982404709, accuracy: 91.54791666666667
+Epoch 2: val. loss: 0.2909516064410514, val. accuracy: 91.5
+Epoch 3: training loss: 0.25111351917187374, accuracy: 92.78541666666666
+Epoch 3: val. loss: 0.247750322473176, val. accuracy: 92.90833333333333
+Epoch 4: training loss: 0.21576171557108562, accuracy: 93.81875
+Epoch 4: val. loss: 0.2151585559737175, val. accuracy: 93.77499999999999
+CPU times: user 1min 14s, sys: 164 ms, total: 1min 14s
+Wall time: 1min 15s
+
+---------------------------------------------
+batch_size_test = 1024
+Output:
+---------------------------------------------
+Test loss: 0.3352, test accuracy: 90.86%
+
+Epoch 0: training loss: 0.7317499752044678, accuracy: 78.07916666666667
+Epoch 0: val. loss: 0.7227715691353412, val. accuracy: 77.85
+Epoch 1: training loss: 0.4036268231868744, accuracy: 88.53541666666666
+Epoch 1: val. loss: 0.396856833328592, val. accuracy: 88.275
+Epoch 2: training loss: 0.3117533388535182, accuracy: 90.96458333333334
+Epoch 2: val. loss: 0.30798315573880014, val. accuracy: 90.64999999999999
+Epoch 3: training loss: 0.25870244320233665, accuracy: 92.50416666666666
+Epoch 3: val. loss: 0.2571266504361274, val. accuracy: 92.16666666666666
+Epoch 4: training loss: 0.2207156415581703, accuracy: 93.66458333333333
+Epoch 4: val. loss: 0.22133993389124565, val. accuracy: 93.36666666666666
+CPU times: user 1min 15s, sys: 172 ms, total: 1min 16s
+Wall time: 1min 16s
+
+*********************************************
+Output from changing the learning rate
+*********************************************
+
+---------------------------------------------
+batch_size_test = 256
+lr = 0.01
+Output:
+---------------------------------------------
+Epoch 0: training loss: 2.284300963719686, accuracy: 25.112499999999997
+Epoch 0: val. loss: 2.283703474288291, val. accuracy: 25.45
+Epoch 1: training loss: 2.2117615337371825, accuracy: 30.53125
+Epoch 1: val. loss: 2.2110809214571687, val. accuracy: 30.716666666666665
+Epoch 2: training loss: 1.9577151463826497, accuracy: 48.88125
+Epoch 2: val. loss: 1.9566616048204137, val. accuracy: 49.0
+Epoch 3: training loss: 1.3534245185852052, accuracy: 70.16041666666666
+Epoch 3: val. loss: 1.3491127617815708, val. accuracy: 69.65833333333333
+Epoch 4: training loss: 0.7597051903406778, accuracy: 78.93958333333333
+Epoch 4: val. loss: 0.7522868672583966, val. accuracy: 78.50833333333334
+CPU times: user 1min 16s, sys: 181 ms, total: 1min 17s
+Wall time: 1min 17s
+
+---------------------------------------------
+batch_size_test = 256
+lr = 0.02
+Output:
+---------------------------------------------
+Epoch 0: training loss: 2.192312444051107, accuracy: 24.597916666666666
+Epoch 0: val. loss: 2.1921038703715547, val. accuracy: 24.75
+Epoch 1: training loss: 1.179978427886963, accuracy: 67.71249999999999
+Epoch 1: val. loss: 1.1725521442737985, val. accuracy: 68.11666666666667
+Epoch 2: training loss: 0.6261588906447093, accuracy: 82.78541666666666
+Epoch 2: val. loss: 0.6168487861435464, val. accuracy: 82.69166666666666
+Epoch 3: training loss: 0.4811396283308665, accuracy: 86.78125
+Epoch 3: val. loss: 0.4710157015856276, val. accuracy: 86.61666666666666
+Epoch 4: training loss: 0.4090166432460149, accuracy: 88.52291666666666
+Epoch 4: val. loss: 0.400771106494234, val. accuracy: 88.68333333333334
+CPU times: user 1min 16s, sys: 199 ms, total: 1min 16s
+Wall time: 1min 16s
+
+---------------------------------------------
+batch_size_test = 256
+lr = 0.03
+Output:
+---------------------------------------------
+Epoch 0: training loss: 1.3917416518529255, accuracy: 70.04166666666667
+Epoch 0: val. loss: 1.3872154621367758, val. accuracy: 70.05833333333334
+Epoch 1: training loss: 0.5194560177326203, accuracy: 85.54166666666667
+Epoch 1: val. loss: 0.5114276025523531, val. accuracy: 85.58333333333333
+Epoch 2: training loss: 0.3775740320682526, accuracy: 89.39791666666666
+Epoch 2: val. loss: 0.36930184066295624, val. accuracy: 89.14999999999999
+Epoch 3: training loss: 0.3199765311479568, accuracy: 90.85416666666667
+Epoch 3: val. loss: 0.3123571603222096, val. accuracy: 90.575
+Epoch 4: training loss: 0.27610985159873963, accuracy: 92.2
+Epoch 4: val. loss: 0.268825001856114, val. accuracy: 92.01666666666667
+CPU times: user 1min 17s, sys: 181 ms, total: 1min 17s
+Wall time: 1min 18s
+
+---------------------------------------------
+batch_size_test = 256
+lr = 0.04
+Output:
+---------------------------------------------
+Epoch 0: training loss: 1.032524912516276, accuracy: 70.98958333333333
+Epoch 0: val. loss: 1.0225732814758381, val. accuracy: 71.04166666666667
+Epoch 1: training loss: 0.44433113384246825, accuracy: 87.54583333333333
+Epoch 1: val. loss: 0.4321629671340293, val. accuracy: 87.6
+Epoch 2: training loss: 0.34238244783878324, accuracy: 90.20625
+Epoch 2: val. loss: 0.3329209642524415, val. accuracy: 90.00833333333334
+Epoch 3: training loss: 0.2848828678925832, accuracy: 91.82708333333333
+Epoch 3: val. loss: 0.27914824717222375, val. accuracy: 91.7
+Epoch 4: training loss: 0.2456510875026385, accuracy: 92.86666666666666
+Epoch 4: val. loss: 0.24383147045018824, val. accuracy: 92.53333333333333
+CPU times: user 1min 16s, sys: 175 ms, total: 1min 16s
+Wall time: 1min 17s
+
+---------------------------------------------
+batch_size_test = 256
+lr = 0.05
+Output:
+---------------------------------------------
+
+Epoch 0: training loss: 0.7761752595901489, accuracy: 77.1125
+Epoch 0: val. loss: 0.7678603105088497, val. accuracy: 77.10833333333333
+Epoch 1: training loss: 0.41134082412719725, accuracy: 88.52916666666667
+Epoch 1: val. loss: 0.4049420363091408, val. accuracy: 88.48333333333333
+Epoch 2: training loss: 0.3063388950427373, accuracy: 91.30416666666666
+Epoch 2: val. loss: 0.29924316260408845, val. accuracy: 91.19166666666668
+Epoch 3: training loss: 0.24638161651293436, accuracy: 92.98333333333333
+Epoch 3: val. loss: 0.2415739834467147, val. accuracy: 92.825
+Epoch 4: training loss: 0.20724530990918477, accuracy: 94.06875
+Epoch 4: val. loss: 0.206558171976754, val. accuracy: 94.03333333333333
+CPU times: user 1min 15s, sys: 183 ms, total: 1min 15s
+Wall time: 1min 16s
+
+---------------------------------------------
+batch_size_test = 256
+lr = 0.06
+Output:
+---------------------------------------------
+Epoch 0: training loss: 0.6267124629815419, accuracy: 82.28750000000001
+Epoch 0: val. loss: 0.6183952229454163, val. accuracy: 82.25833333333334
+Epoch 1: training loss: 0.3396513702472051, accuracy: 90.18125
+Epoch 1: val. loss: 0.3329738996764447, val. accuracy: 90.08333333333334
+Epoch 2: training loss: 0.258829852660497, accuracy: 92.475
+Epoch 2: val. loss: 0.2560764208753058, val. accuracy: 92.30833333333334
+Epoch 3: training loss: 0.21548285539944967, accuracy: 93.73333333333333
+Epoch 3: val. loss: 0.21305210151253862, val. accuracy: 93.60000000000001
+Epoch 4: training loss: 0.18704541136821112, accuracy: 94.51041666666666
+Epoch 4: val. loss: 0.1868518944433395, val. accuracy: 94.33333333333334
+CPU times: user 1min 16s, sys: 163 ms, total: 1min 16s
+Wall time: 1min 16s
+
+---------------------------------------------
+batch_size_test = 256
+lr = 0.07
+Output:
+---------------------------------------------
+Epoch 0: training loss: 0.5925473372936249, accuracy: 83.36875
+Epoch 0: val. loss: 0.5889301984868152, val. accuracy: 82.95
+Epoch 1: training loss: 0.3401806818644206, accuracy: 90.26875
+Epoch 1: val. loss: 0.3359160104647596, val. accuracy: 90.25
+Epoch 2: training loss: 0.26983555312951407, accuracy: 91.97708333333333
+Epoch 2: val. loss: 0.26814800485017454, val. accuracy: 91.95833333333333
+Epoch 3: training loss: 0.20131281207005183, accuracy: 94.03541666666668
+Epoch 3: val. loss: 0.20682301094874422, val. accuracy: 93.76666666666667
+Epoch 4: training loss: 0.16716746114691097, accuracy: 95.04583333333333
+Epoch 4: val. loss: 0.17404234552002967, val. accuracy: 94.68333333333334
+CPU times: user 1min 16s, sys: 181 ms, total: 1min 16s
+Wall time: 1min 17s
+
+---------------------------------------------
+batch_size_test = 256
+lr = 0.08
+Output:
+---------------------------------------------
+Epoch 0: training loss: 0.5527972049713135, accuracy: 83.37708333333333
+Epoch 0: val. loss: 0.5462334647457651, val. accuracy: 83.25
+Epoch 1: training loss: 0.3153541453282038, accuracy: 90.95416666666667
+Epoch 1: val. loss: 0.31024773339641853, val. accuracy: 90.74166666666666
+Epoch 2: training loss: 0.2313908716638883, accuracy: 93.25
+Epoch 2: val. loss: 0.22920170030061235, val. accuracy: 92.95833333333333
+Epoch 3: training loss: 0.18833188370863596, accuracy: 94.44166666666666
+Epoch 3: val. loss: 0.19028871942390788, val. accuracy: 94.30833333333334
+Epoch 4: training loss: 0.15944951349496841, accuracy: 95.20625
+Epoch 4: val. loss: 0.16656720911727307, val. accuracy: 95.0
+CPU times: user 1min 15s, sys: 163 ms, total: 1min 15s
+Wall time: 1min 16s
+
+---------------------------------------------
+batch_size_test = 256
+lr = 0.09
+Output:
+---------------------------------------------
+Epoch 0: training loss: 0.4514043516318003, accuracy: 86.61666666666666
+Epoch 0: val. loss: 0.44283003058839354, val. accuracy: 86.125
+Epoch 1: training loss: 0.2839084455966949, accuracy: 91.6375
+Epoch 1: val. loss: 0.2748467158129875, val. accuracy: 91.63333333333334
+Epoch 2: training loss: 0.20772493769725164, accuracy: 93.94375000000001
+Epoch 2: val. loss: 0.20510310235809773, val. accuracy: 93.77499999999999
+Epoch 3: training loss: 0.18323178509871166, accuracy: 94.47083333333333
+Epoch 3: val. loss: 0.1867884690774248, val. accuracy: 94.35833333333333
+Epoch 4: training loss: 0.14993256145715714, accuracy: 95.59791666666668
+Epoch 4: val. loss: 0.15702697365207874, val. accuracy: 95.31666666666668
+CPU times: user 1min 15s, sys: 187 ms, total: 1min 15s
+Wall time: 1min 16s
+
+---------------------------------------------
+batch_size_test = 256
+lr = 0.10
+Output:
+---------------------------------------------
+Epoch 0: training loss: 0.4263102891842524, accuracy: 87.87083333333334
+Epoch 0: val. loss: 0.4168565828115382, val. accuracy: 87.69166666666666
+Epoch 1: training loss: 0.27346732846895855, accuracy: 92.11666666666667
+Epoch 1: val. loss: 0.2685306836315926, val. accuracy: 91.99166666666667
+Epoch 2: training loss: 0.2054072278936704, accuracy: 93.95416666666667
+Epoch 2: val. loss: 0.20695605802726239, val. accuracy: 93.91666666666667
+Epoch 3: training loss: 0.16343670440713565, accuracy: 95.27916666666667
+Epoch 3: val. loss: 0.1719397170112488, val. accuracy: 94.925
+Epoch 4: training loss: 0.13951273115475973, accuracy: 95.97291666666666
+Epoch 4: val. loss: 0.15017927525208352, val. accuracy: 95.73333333333333
+CPU times: user 1min 24s, sys: 427 ms, total: 1min 24s
+Wall time: 1min 31s
+
+*********************************************
+Output from changing the learning rate
+*********************************************
+
+---------------------------------------------
+ReLU() (For a baseline result to compare against)
+Example of use:
+self.layers_stack = nn.Sequential(
+            nn.Linear(28*28, 50),
+            nn.ReLU(),
+            nn.Dropout(0.2),
+            nn.Linear(50, 50),
+            nn.ReLU(),
+            nn.Dropout(0.2),
+            nn.Linear(50, 50),
+            nn.ReLU(),
+            nn.Dropout(0.2),
+            nn.Linear(50, 10)
+        )
+Output:
+---------------------------------------------
+Epoch 0: training loss: 0.9276661914189657, accuracy: 75.46041666666666
+Epoch 0: val. loss: 0.9203408677527245, val. accuracy: 75.88333333333334
+Epoch 1: training loss: 0.4543134207725525, accuracy: 87.55833333333334
+Epoch 1: val. loss: 0.45024523456045923, val. accuracy: 87.31666666666666
+Epoch 2: training loss: 0.34489003018538156, accuracy: 90.39583333333333
+Epoch 2: val. loss: 0.3431054217384217, val. accuracy: 90.06666666666666
+Epoch 3: training loss: 0.27574233933289843, accuracy: 92.27916666666667
+Epoch 3: val. loss: 0.2737466762674616, val. accuracy: 91.93333333333334
+Epoch 4: training loss: 0.2314148325721423, accuracy: 93.42083333333333
+Epoch 4: val. loss: 0.2299568236191222, val. accuracy: 93.18333333333332
+CPU times: user 1min 16s, sys: 166 ms, total: 1min 16s
+Wall time: 1min 18s
+
+---------------------------------------------
+LeakyReLU()
+Example of use:
+self.layers_stack = nn.Sequential(
+            nn.Linear(28*28, 50),
+            nn.LeakyReLU(),
+            nn.Dropout(0.2),
+            nn.Linear(50, 50),
+            nn.LeakyReLU(),
+            nn.Dropout(0.2),
+            nn.Linear(50, 50),
+            nn.LeakyReLU(),
+            nn.Dropout(0.2),
+            nn.Linear(50, 10)
+        )
+Output:
+---------------------------------------------
+Epoch 0: training loss: 1.2360629908243814, accuracy: 63.956250000000004
+Epoch 0: val. loss: 1.2250757927590228, val. accuracy: 64.25833333333333
+Epoch 1: training loss: 0.556411917924881, accuracy: 85.5
+Epoch 1: val. loss: 0.548127253955983, val. accuracy: 85.36666666666667
+Epoch 2: training loss: 0.38687035675843556, accuracy: 89.52291666666666
+Epoch 2: val. loss: 0.38262589275836945, val. accuracy: 89.11666666666666
+Epoch 3: training loss: 0.3145820227066676, accuracy: 91.40416666666667
+Epoch 3: val. loss: 0.31166543510365996, val. accuracy: 91.125
+Epoch 4: training loss: 0.26764301214615505, accuracy: 92.63958333333333
+Epoch 4: val. loss: 0.26668055997566975, val. accuracy: 92.31666666666666
+CPU times: user 1min 16s, sys: 179 ms, total: 1min 16s
+Wall time: 1min 17s
+
+---------------------------------------------
+LogSigmoid()
+Output:
+---------------------------------------------
+Epoch 0: training loss: 2.2873476416269938, accuracy: 15.55
+Epoch 0: val. loss: 2.2874283841315735, val. accuracy: 15.616666666666667
+Epoch 1: training loss: 1.79490510114034, accuracy: 45.18333333333333
+Epoch 1: val. loss: 1.7946278757237373, val. accuracy: 45.03333333333333
+Epoch 2: training loss: 0.8880265208880107, accuracy: 70.5
+Epoch 2: val. loss: 0.8816105501448854, val. accuracy: 70.69166666666666
+Epoch 3: training loss: 0.7368385640780131, accuracy: 76.25208333333333
+Epoch 3: val. loss: 0.7291292129678929, val. accuracy: 76.24166666666666
+Epoch 4: training loss: 0.6493529879252116, accuracy: 79.80000000000001
+Epoch 4: val. loss: 0.6412209402373497, val. accuracy: 79.65833333333333
+CPU times: user 1min 16s, sys: 171 ms, total: 1min 16s
+Wall time: 1min 16s
+
+---------------------------------------------
+Hardtanh()
+Output:
+---------------------------------------------
+Epoch 0: training loss: 0.4826968094507853, accuracy: 86.825
+Epoch 0: val. loss: 0.47469598467045643, val. accuracy: 86.65833333333333
+Epoch 1: training loss: 0.3582874514261882, accuracy: 89.75625000000001
+Epoch 1: val. loss: 0.34945868494662835, val. accuracy: 89.525
+Epoch 2: training loss: 0.30939687021573387, accuracy: 91.07291666666667
+Epoch 2: val. loss: 0.30232076806590913, val. accuracy: 90.90833333333333
+Epoch 3: training loss: 0.28032410498460136, accuracy: 91.88541666666666
+Epoch 3: val. loss: 0.27544184956461826, val. accuracy: 91.64999999999999
+Epoch 4: training loss: 0.2577448051373164, accuracy: 92.49166666666667
+Epoch 4: val. loss: 0.2560763970968571, val. accuracy: 92.20833333333334
+CPU times: user 1min 15s, sys: 167 ms, total: 1min 16s
+Wall time: 1min 16s
+
+---------------------------------------------
+SELU()
+Output:
+---------------------------------------------
+Epoch 0: training loss: 0.38427348323663074, accuracy: 88.98333333333333
+Epoch 0: val. loss: 0.37526684587306164, val. accuracy: 89.00833333333334
+Epoch 1: training loss: 0.3225645201206207, accuracy: 90.83541666666667
+Epoch 1: val. loss: 0.31250904532189067, val. accuracy: 90.83333333333333
+Epoch 2: training loss: 0.2948869708776474, accuracy: 91.4875
+Epoch 2: val. loss: 0.28878256876734976, val. accuracy: 91.36666666666666
+Epoch 3: training loss: 0.273011060098807, accuracy: 92.13958333333333
+Epoch 3: val. loss: 0.2694671482164809, val. accuracy: 91.85
+Epoch 4: training loss: 0.2606653987765312, accuracy: 92.46666666666667
+Epoch 4: val. loss: 0.2596106413514056, val. accuracy: 92.18333333333332
+CPU times: user 1min 16s, sys: 181 ms, total: 1min 17s
+Wall time: 1min 18s
