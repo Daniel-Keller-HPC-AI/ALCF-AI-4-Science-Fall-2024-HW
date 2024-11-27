@@ -1,17 +1,18 @@
 # set our initial slope and intercept
 m = 5.
 b = 1000.
-# batch_size = 60
+batch_size = 60
 # set a learning rate for each parameter
 learning_rate_m = 1e-7
 learning_rate_b = 1e-1
 # use these to plot our progress over time
 loss_history = []
 # convert panda data to numpy arrays, one for the "Ground Living Area" and one for "Sale Price"
+data_batch = data.sample(batch_size)
 data_x = data['GrLivArea'].to_numpy()
 data_y = data['SalePrice'].to_numpy()
 # we run our loop N times
-loop_N = 30
+loop_N = 60*len(data)//batch_size
 for i in range(loop_N):
    # update our slope and intercept based on the current values
    m = updated_m(data_x,data_y,m,b,learning_rate_m)
