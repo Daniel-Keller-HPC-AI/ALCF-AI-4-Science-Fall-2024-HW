@@ -1,0 +1,89 @@
+Daniel Keller - 03_Advanced_Neural_Networks Homework Output
+*******************************************************************************
+From Bethany Lusch on Slack:
+For reference for the homework:
+For me, the current notebook (epoch = 30) ends with validation loss: 1.442, accuracy: 47.627%
+*******************************************************************************
+
+I didn't have the time available to run the model on a Google Colab with epoch = 30 and 
+meet the homework deadline, so the first thing that I did was run the current notebook with 
+nothing changed and the epoch reduced to 5 to see how much the accuracy suffered from that, 
+and how much accuracy that I was going to have to somehow make up:
+-------------------------------------------------------------------------------
+Train Epoch 0: 100%
+ 313/313 [23:09<00:00,  3.63s/it]
+Validate (train) Epoch 0: 100%
+ 313/313 [05:21<00:00,  1.27it/s]
+Epoch 0: training loss: 2.116, accuracy: 19.566
+Validate Epoch 0: 100%
+ 79/79 [01:20<00:00,  1.27it/s]
+Epoch 0: validation loss: 2.120, accuracy: 19.482
+Train Epoch 1: 100%
+ 313/313 [23:20<00:00,  3.63s/it]
+Validate Epoch 1: 100%
+ 79/79 [01:11<00:00,  1.72it/s]
+Epoch 1: validation loss: 1.982, accuracy: 26.256
+Train Epoch 2: 100%
+ 313/313 [23:14<00:00,  3.68s/it]
+Validate Epoch 2: 100%
+ 79/79 [01:19<00:00,  1.53it/s]
+Epoch 2: validation loss: 1.979, accuracy: 26.859
+Train Epoch 3: 100%
+ 313/313 [23:28<00:00,  3.81s/it]
+Validate Epoch 3: 100%
+ 79/79 [01:20<00:00,  1.53it/s]
+Epoch 3: validation loss: 1.872, accuracy: 31.952
+Train Epoch 4: 100%
+ 313/313 [23:15<00:00,  3.70s/it]
+Validate Epoch 4: 100%
+ 79/79 [01:21<00:00,  1.43it/s]
+Epoch 4: validation loss: 1.907, accuracy: 30.854
+-------------------------------------------------------------------------------
+
+Reducing the epochs to 5 on the reference notebook reduced the accuracy by 16.773%.  I have a lot to make up 
+to beat Bethany Lusch's score.
+
+The homework deadline was luming, not only forcing me to have to reduce my epochs to 5, but also to really only
+have one attempt at improving my score.  Because of that, I decided to leave the hyperparameters alone (other than 
+changing the number of epochs to 5, of course) and instead make a more significant change-- I changed the activation 
+function from GELU ("Gaussian Error Linear Unit") to a more recently developed activation function, SELU
+("Scaled Exponential Linear Unit").  This was a bit of an aggressive move, as GELU is pretty much a gold standard for vision 
+models, out-performing the previously widely used ReLU ("Rectified Linear Unit") activation function.  SELU has its own 
+advantages however.  SELU doesn't suffer from the "Dying ReLU problem, and can have negative values in its graph.  Networks 
+also converge faster with SELU over GELU and ReLU do to the internal normalization that occurs with the SELU function.  I figured 
+that SELU was worth a shot.
+
+Here are the results using SELU as the activation function with the number of epochs set to 5:
+-------------------------------------------------------------------------------
+Train Epoch 0: 100%
+ 313/313 [22:24<00:00,  3.66s/it]
+Validate (train) Epoch 0: 100%
+ 313/313 [05:14<00:00,  1.29it/s]
+Epoch 0: training loss: 2.068, accuracy: 22.574
+Validate Epoch 0: 100%
+ 79/79 [01:18<00:00,  1.59it/s]
+Epoch 0: validation loss: 2.077, accuracy: 21.994
+Train Epoch 1: 100%
+ 313/313 [22:22<00:00,  3.70s/it]
+Validate Epoch 1: 100%
+ 79/79 [01:19<00:00,  1.25it/s]
+Epoch 1: validation loss: 1.987, accuracy: 24.822
+Train Epoch 2: 100%
+ 313/313 [22:27<00:00,  3.49s/it]
+Validate Epoch 2: 100%
+ 79/79 [01:18<00:00,  1.47it/s]
+Epoch 2: validation loss: 1.921, accuracy: 31.576
+Train Epoch 3: 100%
+ 313/313 [22:31<00:00,  3.52s/it]
+Validate Epoch 3: 100%
+ 79/79 [01:18<00:00,  1.43it/s]
+Epoch 3: validation loss: 1.839, accuracy: 32.575
+Train Epoch 4: 100%
+ 313/313 [22:08<00:00,  3.54s/it]
+Validate Epoch 4: 100%
+ 79/79 [01:19<00:00,  1.53it/s]
+Epoch 4: validation loss: 1.810, accuracy: 34.573
+
+The fifth epoch had an accuracy of 34.573%, significantly beating the 30.854% of GELU after 5 epochs.
+Had I the time to run this notebook using SELU as the activation function for the full 30 epochs, the 
+possibility is strong that I may have beaten Bethany Lusch's accuracy score.
